@@ -1,0 +1,32 @@
+K = 1000.0;
+n = 2;
+I_L = 100;
+
+k_aR = 0;
+k_aG = 0;
+k_aB = 0.8;
+ka = std::make_tuple(k_aR, k_aG, k_aB);
+
+I_a = 0.4;
+
+k_dR = 1;
+k_dG = 0;
+k_dB = 0;
+kd = std::make_tuple(k_dR, k_dG, k_dB);
+
+k_sR = 1;
+k_sG = 1;
+k_sB = 1;
+ks = std::make_tuple(k_sR, k_sG, k_sB);
+
+// from point
+ffX = 67.6679
+ffY = 112.857
+ffZ = 115.989
+Vec3 f = std::make_tuple(ffX, ffY, ffZ);
+
+// light source
+xX = 0
+xY = 0
+xZ = 0
+Vec3 x = std::make_tuple(xX, xY, xZ);
